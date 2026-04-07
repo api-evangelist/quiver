@@ -1,8 +1,8 @@
 aid: quiver
 name: Quiver
 description: >-
-  Alternative data is the future of investment research.Tap into its power with
-  the Quiver API,starting from just $10/month. 
+  Alternative data is the future of investment research.Tap into its power with the
+  Quiver API,starting from just $10/month.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -18,8 +18,8 @@ apis:
   - aid: quiver:quiver
     name: Quiver
     description: >-
-      Alternative data is the future of investment research.Tap into its power
-      with the Quiver API,starting from just $10/month. 
+      Alternative data is the future of investment research.Tap into its power with
+      the Quiver API,starting from just $10/month.
     humanURL: ' https://api.quiverquant.com/'
     tags:
       - API
