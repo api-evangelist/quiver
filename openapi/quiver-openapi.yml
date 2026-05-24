@@ -1,0 +1,81 @@
+openapi: 3.1.0
+info:
+  title: Quiver Quantitative API
+  description: >-
+    Quiver Quantitative exposes alternative-data datasets including
+    congressional and Senate trading, insider activity, lobbying records,
+    government contracts, and other non-traditional financial signals via a
+    single REST API. Authentication is performed with a Bearer token API key.
+  version: beta
+servers:
+  - url: https://api.quiverquant.com
+    description: Production
+security:
+  - BearerAuth: []
+paths:
+  /beta/live/congresstrading:
+    get:
+      summary: Live congressional trading activity
+      operationId: liveCongressTrading
+      responses:
+        '200':
+          description: Recent congressional trades
+  /beta/historical/congresstrading/{ticker}:
+    get:
+      summary: Historical congressional trading for a ticker
+      operationId: historicalCongressTradingByTicker
+      parameters:
+        - $ref: '#/components/parameters/Ticker'
+      responses:
+        '200':
+          description: Historical congressional trades
+  /beta/live/governmentcontracts:
+    get:
+      summary: Live government contract awards
+      operationId: liveGovernmentContracts
+      responses:
+        '200':
+          description: Recent government contracts
+  /beta/historical/lobbying/{ticker}:
+    get:
+      summary: Historical corporate lobbying for a ticker
+      operationId: historicalLobbyingByTicker
+      parameters:
+        - $ref: '#/components/parameters/Ticker'
+      responses:
+        '200':
+          description: Lobbying records
+  /beta/historical/insiders/{ticker}:
+    get:
+      summary: Historical insider trading for a ticker
+      operationId: historicalInsidersByTicker
+      parameters:
+        - $ref: '#/components/parameters/Ticker'
+      responses:
+        '200':
+          description: Insider trading records
+  /beta/historical/wikipedia/{ticker}:
+    get:
+      summary: Historical Wikipedia page views for a ticker
+      operationId: historicalWikipediaByTicker
+      parameters:
+        - $ref: '#/components/parameters/Ticker'
+      responses:
+        '200':
+          description: Wikipedia page-view time series
+components:
+  parameters:
+    Ticker:
+      name: ticker
+      in: path
+      required: true
+      description: Stock ticker symbol (e.g. AAPL)
+      schema:
+        type: string
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      description: >-
+        Bearer token from your Quiver Quantitative account. Pass as
+        `Authorization: Bearer <API_KEY>`.
