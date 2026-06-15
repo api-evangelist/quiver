@@ -1,0 +1,114 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Quiver Quantitative API",
+    "version": "beta"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Live congressional trading activity",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/live/congresstrading"
+      },
+      "docs": "Live congressional trading activity"
+    },
+    {
+      "info": {
+        "name": "Historical congressional trading for a ticker",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/historical/congresstrading/:ticker",
+        "params": [
+          {
+            "name": "ticker",
+            "value": "",
+            "type": "path",
+            "description": "Stock ticker symbol (e.g. AAPL)"
+          }
+        ]
+      },
+      "docs": "Historical congressional trading for a ticker"
+    },
+    {
+      "info": {
+        "name": "Live government contract awards",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/live/governmentcontracts"
+      },
+      "docs": "Live government contract awards"
+    },
+    {
+      "info": {
+        "name": "Historical corporate lobbying for a ticker",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/historical/lobbying/:ticker",
+        "params": [
+          {
+            "name": "ticker",
+            "value": "",
+            "type": "path",
+            "description": "Stock ticker symbol (e.g. AAPL)"
+          }
+        ]
+      },
+      "docs": "Historical corporate lobbying for a ticker"
+    },
+    {
+      "info": {
+        "name": "Historical insider trading for a ticker",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/historical/insiders/:ticker",
+        "params": [
+          {
+            "name": "ticker",
+            "value": "",
+            "type": "path",
+            "description": "Stock ticker symbol (e.g. AAPL)"
+          }
+        ]
+      },
+      "docs": "Historical insider trading for a ticker"
+    },
+    {
+      "info": {
+        "name": "Historical Wikipedia page views for a ticker",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://api.quiverquant.com/beta/historical/wikipedia/:ticker",
+        "params": [
+          {
+            "name": "ticker",
+            "value": "",
+            "type": "path",
+            "description": "Stock ticker symbol (e.g. AAPL)"
+          }
+        ]
+      },
+      "docs": "Historical Wikipedia page views for a ticker"
+    }
+  ],
+  "bundled": true
+}
