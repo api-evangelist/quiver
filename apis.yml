@@ -45,7 +45,7 @@ apis:
         url: https://api.quiverquant.com/docs/
       - type: Pricing
         url: https://www.quiverquant.com/pricing/
-      - type: SignUp
+      - type: Signup
         url: https://www.quiverquant.com/signup/
       - type: Authentication
         url: https://api.quiverquant.com/docs/
@@ -58,7 +58,7 @@ common:
     url: https://api.quiverquant.com/docs/
   - type: Pricing
     url: https://www.quiverquant.com/pricing/
-  - type: SignUp
+  - type: Signup
     url: https://www.quiverquant.com/signup/
   - type: Blog
     url: https://www.quiverquant.com/blog/
