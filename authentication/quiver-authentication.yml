@@ -1,0 +1,14 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/quiver-openapi.yml
+summary:
+  types:
+  - http
+schemes:
+- name: BearerAuth
+  type: http
+  scheme: bearer
+  description: 'Bearer token from your Quiver Quantitative account. Pass as `Authorization:
+    Bearer <API_KEY>`.'
+  sources:
+  - openapi/quiver-openapi.yml

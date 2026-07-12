@@ -50,6 +50,10 @@ apis:
       - type: Authentication
         url: https://api.quiverquant.com/docs/
 common:
+  - type: DomainSecurity
+    url: security/quiver-domain-security.yml
+  - type: Authentication
+    url: authentication/quiver-authentication.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/quiver-quantitative
   - type: Website
