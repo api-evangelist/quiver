@@ -2,14 +2,14 @@
   "repo": "quiver",
   "feeds": [
     {
-      "source": "https://www.quiverquant.com/blog/",
-      "feed_url": "",
+      "source": "https://www.quiverquant.com/signup/",
+      "feed_url": "https://www.quiverquant.com/signup/",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape",
-      "error": "no post listings rendered in HTML"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T13:03:48Z",
-  "agent_pulled": "2026-06-27"
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
