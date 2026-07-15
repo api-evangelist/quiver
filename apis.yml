@@ -50,6 +50,8 @@ apis:
       - type: Authentication
         url: https://api.quiverquant.com/docs/
 common:
+  - type: AgenticAccess
+    url: agentic-access/quiver-agentic-access.yml
   - type: DomainSecurity
     url: security/quiver-domain-security.yml
   - type: Authentication
