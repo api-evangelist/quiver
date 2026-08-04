@@ -1,0 +1,14 @@
+{
+  "provider": "quiver",
+  "sources": [
+    "quiver-beta-api-openapi.yml"
+  ],
+  "outputs": [
+    "quiver-beta-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
