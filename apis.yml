@@ -35,7 +35,7 @@ created: '2025-02-12'
 modified: '2026-04-28'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: quiver:quiver
   name: Quiver Quantitative API
