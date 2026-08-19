@@ -1,0 +1,527 @@
+{
+  "item": [
+    {
+      "id": "0656f78c-32d0-43f4-b839-d27fa60db339",
+      "name": "Beta",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "c6a96871-4770-49ed-920c-74639a96ac3a",
+          "name": "Live congressional trading activity",
+          "request": {
+            "name": "Live congressional trading activity",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "live",
+                "congresstrading"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "0dffba50-02a8-4426-9d34-c9121a94540e",
+              "name": "Recent congressional trades",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "live",
+                    "congresstrading"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "e32d41f7-5c69-4bbe-b1f9-c0b126919e0c",
+          "name": "Historical congressional trading for a ticker",
+          "request": {
+            "name": "Historical congressional trading for a ticker",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "historical",
+                "congresstrading",
+                ":ticker"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "ticker",
+                  "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "461f9a89-9136-4c96-ad1e-4578603c863b",
+              "name": "Historical congressional trades",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "historical",
+                    "congresstrading",
+                    ":ticker"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "ticker",
+                      "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "387a8912-3f77-407f-9c9c-d46f83914898",
+          "name": "Live government contract awards",
+          "request": {
+            "name": "Live government contract awards",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "live",
+                "governmentcontracts"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "7f7c2e51-e2ad-4fa3-9180-97ee0f16f290",
+              "name": "Recent government contracts",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "live",
+                    "governmentcontracts"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "b010e084-ed97-4f7c-a792-5fc32b98300a",
+          "name": "Historical corporate lobbying for a ticker",
+          "request": {
+            "name": "Historical corporate lobbying for a ticker",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "historical",
+                "lobbying",
+                ":ticker"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "ticker",
+                  "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a71fa2b9-c69e-4bf4-8c04-84736561dd6d",
+              "name": "Lobbying records",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "historical",
+                    "lobbying",
+                    ":ticker"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "ticker",
+                      "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "6fc4fde9-d8c6-4233-aa61-2e60dc231ba5",
+          "name": "Historical insider trading for a ticker",
+          "request": {
+            "name": "Historical insider trading for a ticker",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "historical",
+                "insiders",
+                ":ticker"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "ticker",
+                  "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "18cb0df1-ccca-403b-83c4-b69914bf572e",
+              "name": "Insider trading records",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "historical",
+                    "insiders",
+                    ":ticker"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "ticker",
+                      "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "a0a26068-8268-45ef-a202-e6e0ea548d88",
+          "name": "Historical Wikipedia page views for a ticker",
+          "request": {
+            "name": "Historical Wikipedia page views for a ticker",
+            "description": {},
+            "url": {
+              "path": [
+                "beta",
+                "historical",
+                "wikipedia",
+                ":ticker"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "ticker",
+                  "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "1b259eac-fdf1-482b-806b-6f75e993fe73",
+              "name": "Wikipedia page-view time series",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "beta",
+                    "historical",
+                    "wikipedia",
+                    ":ticker"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "ticker",
+                      "description": "(Required) Stock ticker symbol (e.g. AAPL)"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.quiverquant.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "e6c45461-6612-4b7b-8274-3c826045de8e",
+    "name": "Quiver Quantitative Beta API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Quiver Quantitative exposes alternative-data datasets including congressional and Senate trading, insider activity, lobbying records, government contracts, and other non-traditional financial signals via a single REST API. Authentication is performed with a Bearer token API key.",
+      "type": "text/plain"
+    }
+  }
+}
