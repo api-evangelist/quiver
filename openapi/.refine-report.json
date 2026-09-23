@@ -1,7 +1,7 @@
 {
   "provider": "quiver",
   "sources": [
-    "quiver-beta-api-openapi.yml"
+    "_original/quiver-openapi.yml"
   ],
   "outputs": [
     "quiver-beta-api-openapi.yml"
@@ -9,6 +9,19 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "quiver-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "quiver-openapi.yml: tagged paths GET /beta/live/congresstrading -> Beta",
+    "quiver-openapi.yml: tagged paths GET /beta/historical/congresstrading/{ticker} -> Beta",
+    "quiver-openapi.yml: tagged paths GET /beta/live/governmentcontracts -> Beta",
+    "quiver-openapi.yml: tagged paths GET /beta/historical/lobbying/{ticker} -> Beta",
+    "quiver-openapi.yml: tagged paths GET /beta/historical/insiders/{ticker} -> Beta",
+    "quiver-openapi.yml: tagged paths GET /beta/historical/wikipedia/{ticker} -> Beta",
+    "quiver-openapi.yml: declared missing tag: Beta",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "quiver-beta-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

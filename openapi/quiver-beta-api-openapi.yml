@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Quiver Quantitative Beta API
   description: Quiver Quantitative exposes alternative-data datasets including congressional and Senate trading, insider activity, lobbying records, government contracts, and other non-traditional financial signals via a single REST API. Authentication is performed with a Bearer token API key.
