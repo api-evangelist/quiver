@@ -7,14 +7,18 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.quiverquant.com
   final_host: www.quiverquant.com
-  ownership: own
-  owner: quiver
-  shares_host_with: null
+  ownership: unresolved
+  owner: null
+  shares_host_with:
+  - quiver-quantitative
   inherited_from: null
+  alias_of: null
   verdict: scored
-  score: 3
+  score: null
+  band: null
+  band_label: null
   host_score: 3
-  density: 2.7
+  density: null
   words: 1113
   tiers:
     agentic: 1
