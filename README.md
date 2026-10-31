@@ -1,4 +1,4 @@
-# Quiver Quantitative (quiver)
+# Quiver Quantitative
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,119 @@
 
 Quiver Quantitative is an alternative-data platform that aggregates non-traditional financial datasets and exposes them through a single API. The platform covers congressional and Senate trading, insider trading, lobbying activity, government contracts, corporate patents, executive compensation, institutional and ETF holdings, off-exchange activity, app ratings, and more, giving developers and quantitative researchers programmatic access to alternative data signals starting at $10 per month.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/apis.yml)
+**Areas:** Alternative Data · Financial Data · Investment Research · Market Data · Government Data · Congressional Trading
 
-## Scope
+## Quiver Quantitative on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Quiver Quantitative is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quiver/](https://apis.io/providers/quiver/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Alternative Data
-- Financial Data
-- Investment Research
-- Market Data
-- Government Data
-- Congressional Trading
+- [Quiver Quantitative API](https://apis.io/apis/quiver/quiver/) — The Quiver Quantitative API provides REST access to alternative financial datasets including Congressional and Senate stock trading, insider transactions,…
+- [Quiver Quantitative Beta API](https://apis.io/apis/quiver/quiver-beta-api/) — The Beta API from Quiver Quantitative — 6 operation(s) for beta.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-12
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### Quiver Quantitative API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The Quiver Quantitative API provides REST access to alternative financial datasets including Congressional and Senate stock trading, insider transactions, lobbying disclosures, government contracts, corporate patents, executive compensation, institutional holdings, ETF holdings, top shareholders, off-exchange activity, app ratings, and the Quiver newsfeed. Endpoints are available for both bulk historical datasets and live ticker-specific lookups, organized under versioned paths such as /beta and /v1.
+- [Quiver Agentic Access](https://apis.io/agentic-access/quiver/quiver-agentic-access/)
 
-- **Human URL:** [https://api.quiverquant.com/](https://api.quiverquant.com/)
-- **Base URL:** `https://api.quiverquant.com`
+#### Collections (2)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Alternative Data
-- Financial Data
-- Investment Research
+- [Quiver Quantitative API](https://apis.io/collections/quiver/open-quiver/)
+- [Quiver Quantitative Beta API](https://apis.io/collections/quiver/open-quiver-beta-api/)
 
-#### Properties
+#### Security (2)
 
-- [Documentation](https://api.quiverquant.com/docs/)
-- [Pricing](https://www.quiverquant.com/pricing/)
-- [Sign Up](https://www.quiverquant.com/signup/)
-- [Authentication](https://api.quiverquant.com/docs/)
-- [Postman Collection](collections/quiver.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/quiver.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-## Common Properties
+- [Quiver Authentication](https://apis.io/security/quiver/quiver-authentication/)
+- [Quiver Domain Security](https://apis.io/security/quiver/quiver-domain-security/)
 
-- [LinkedIn](https://www.linkedin.com/company/quiver-quantitative)
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Quiver Plans Pricing](https://apis.io/plans/quiver/quiver-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Quiver Rate Limits](https://apis.io/rate-limits/quiver/quiver-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Quiver Finops](https://apis.io/finops/quiver/quiver-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.quiverquant.com/)
 - [Documentation](https://api.quiverquant.com/docs/)
 - [Pricing](https://www.quiverquant.com/pricing/)
-- [Sign Up](https://www.quiverquant.com/signup/)
 - [Blog](https://www.quiverquant.com/blog/)
-- [Terms of Service](https://www.quiverquant.com/terms/)
-- [Privacy Policy](https://www.quiverquant.com/privacy/)
+- [Terms of service](https://www.quiverquant.com/terms/)
+- [Privacy policy](https://www.quiverquant.com/privacy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 28.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 42.9 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 20.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quiver/](https://apis.io/providers/quiver/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Quiver Quantitative: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quiver/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
